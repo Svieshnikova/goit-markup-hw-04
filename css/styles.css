@@ -3,7 +3,7 @@
   --second-color: #2196f3;
   --text-color: #757575;
   --background-color: #2f303a;
-  --icon-color: #ffffff;
+  --icon-color: #afb1b8;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -346,7 +346,17 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--icon-color);
 }
+.clients-picture-icon {
+  fill: currentColor;
+}
+.clients-picture-link:hover,
+.clients-picture-link:focus {
+  color: var(--second-color);
+  border-color: var(--second-color);
+}
+
 /* ------Footer------- */
 .footer {
   background-color: var(--background-color);
