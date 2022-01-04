@@ -3,6 +3,7 @@
   --second-color: #2196f3;
   --text-color: #757575;
   --background-color: #2f303a;
+  --icon-color: #ffffff;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -284,10 +285,67 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-bottom: 30px;
 }
 .team-desk {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.team-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #afb1b8;
+}
+.team-social-icon {
+  fill: currentColor;
+}
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--second-color);
+  color: #ffffff;
+}
+.team-social-list {
+  display: flex;
+  justify-content: center;
+}
+.team-social-item:not(:nth-child(6)) {
+  margin-right: 10px;
+}
+
+/* -----------Clients------------ */
+.clients {
+}
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+}
+.clients-picture {
+  flex-basis: calc(100% / 6 - 150px);
+}
+.clients-picture:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-picture-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* ------Footer------- */
 .footer {
