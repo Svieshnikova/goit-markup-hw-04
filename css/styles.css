@@ -99,16 +99,23 @@ img {
 
 .contacts-list {
   display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.contacts-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  margin-left: auto;
 }
-.contacts:hover,
-.contacts:focus {
+.contacts-item:hover,
+.contacts-item:focus {
   color: var(--second-color);
+}
+.contacts-icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /* ---------Hero--------- */
