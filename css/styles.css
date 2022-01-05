@@ -320,7 +320,7 @@ img {
   display: flex;
   justify-content: center;
 }
-.team-social-item:not(:nth-child(6)) {
+.team-social-item:not(:nth-child(4)) {
   margin-right: 10px;
 }
 
@@ -365,10 +365,14 @@ img {
 }
 
 /* ------Footer------- */
+
 .footer {
   background-color: var(--background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.connect-container {
+  display: flex;
 }
 .logo-second {
   font-family: Raleway, sans-serif;
@@ -403,6 +407,44 @@ img {
   margin-bottom: 0;
 }
 
+.social-network {
+  margin-left: 70px;
+}
+b {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: left;
+  justify-content: center;
+}
+.social-network-link {
+  width: 44px;
+  height: 44px;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.social-network-icon {
+  fill: currentColor;
+}
+.social-network-link:hover,
+.social-network-link:focus {
+  background-color: var(--second-color);
+}
+.social-network-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.social-network-item:not(:nth-child(4)) {
+  margin-right: 10px;
+}
 /* ------Portfolio-------- */
 
 .button-item {
