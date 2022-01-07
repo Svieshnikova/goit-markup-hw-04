@@ -86,8 +86,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
-.subtitle-item:hover,
-.subtitle-item:focus {
+.subtitle-item :hover,
+.subtitle-item :focus {
   color: var(--second-color);
 }
 .subtitle-item:not(:last-child) {
@@ -109,8 +109,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.contacts-item:hover,
-.contacts-item:focus {
+.contacts-item :hover,
+.contacts-item :focus {
   color: var(--second-color);
 }
 .contacts-icon {
@@ -129,6 +129,10 @@ img {
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -174,7 +178,6 @@ img {
 }
 .features-picture-list {
   display: flex;
-  margin-bottom: 30px;
 }
 
 .features-picture-link {
@@ -185,6 +188,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .features-picture {
@@ -292,7 +296,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .team-desk {
   padding-top: 30px;
@@ -373,6 +377,7 @@ img {
 }
 .connect-container {
   display: flex;
+  align-items: baseline;
 }
 .logo-second {
   font-family: Raleway, sans-serif;
@@ -455,6 +460,10 @@ b {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  padding: 6px 22px;
+  border: none;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 .button-item:hover,
 .button-item:focus {
